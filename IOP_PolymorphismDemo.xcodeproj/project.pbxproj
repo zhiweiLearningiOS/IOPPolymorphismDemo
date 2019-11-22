@@ -1,0 +1,682 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F820FC21782BF116F05DC14 /* libPods-IOP_PolymorphismDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D9D4FC8EB766CCF366E418B /* libPods-IOP_PolymorphismDemo.a */; };
+		6D76554A23878DE3005379E0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D76554923878DE3005379E0 /* AppDelegate.m */; };
+		6D76554D23878DE3005379E0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D76554C23878DE3005379E0 /* ViewController.m */; };
+		6D76555023878DE3005379E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D76554E23878DE3005379E0 /* Main.storyboard */; };
+		6D76555223878DE5005379E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D76555123878DE5005379E0 /* Assets.xcassets */; };
+		6D76555523878DE5005379E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D76555323878DE5005379E0 /* LaunchScreen.storyboard */; };
+		6D76555823878DE5005379E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D76555723878DE5005379E0 /* main.m */; };
+		6D76556223878DE5005379E0 /* IOP_PolymorphismDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D76556123878DE5005379E0 /* IOP_PolymorphismDemoTests.m */; };
+		6D76556D23878DE5005379E0 /* IOP_PolymorphismDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D76556C23878DE5005379E0 /* IOP_PolymorphismDemoUITests.m */; };
+		6D76558123879250005379E0 /* PlayerBannedStateHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D76558023879250005379E0 /* PlayerBannedStateHandler.m */; };
+		6D7655842387925E005379E0 /* PlayerDeleteStateHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D7655832387925E005379E0 /* PlayerDeleteStateHandler.m */; };
+		6D7655872387926C005379E0 /* PlayerLocalStateHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D7655862387926C005379E0 /* PlayerLocalStateHandler.m */; };
+		6D76558A23879280005379E0 /* PlayerNoNetworkStateHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D76558923879280005379E0 /* PlayerNoNetworkStateHandler.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6D76555E23878DE5005379E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D76553D23878DE3005379E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D76554423878DE3005379E0;
+			remoteInfo = IOP_PolymorphismDemo;
+		};
+		6D76556923878DE5005379E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D76553D23878DE3005379E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D76554423878DE3005379E0;
+			remoteInfo = IOP_PolymorphismDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D9D4FC8EB766CCF366E418B /* libPods-IOP_PolymorphismDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IOP_PolymorphismDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B1A570A8656AB356C6E1AEE /* Pods-IOP_PolymorphismDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOP_PolymorphismDemo.release.xcconfig"; path = "Target Support Files/Pods-IOP_PolymorphismDemo/Pods-IOP_PolymorphismDemo.release.xcconfig"; sourceTree = "<group>"; };
+		6D76554523878DE3005379E0 /* IOP_PolymorphismDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOP_PolymorphismDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D76554823878DE3005379E0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6D76554923878DE3005379E0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6D76554B23878DE3005379E0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6D76554C23878DE3005379E0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6D76554F23878DE3005379E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6D76555123878DE5005379E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6D76555423878DE5005379E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6D76555623878DE5005379E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D76555723878DE5005379E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6D76555D23878DE5005379E0 /* IOP_PolymorphismDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOP_PolymorphismDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D76556123878DE5005379E0 /* IOP_PolymorphismDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IOP_PolymorphismDemoTests.m; sourceTree = "<group>"; };
+		6D76556323878DE5005379E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D76556823878DE5005379E0 /* IOP_PolymorphismDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOP_PolymorphismDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D76556C23878DE5005379E0 /* IOP_PolymorphismDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IOP_PolymorphismDemoUITests.m; sourceTree = "<group>"; };
+		6D76556E23878DE5005379E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D76557C23878E50005379E0 /* IOPPolymorphismProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IOPPolymorphismProtocol.h; sourceTree = "<group>"; };
+		6D76557F23879250005379E0 /* PlayerBannedStateHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayerBannedStateHandler.h; sourceTree = "<group>"; };
+		6D76558023879250005379E0 /* PlayerBannedStateHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayerBannedStateHandler.m; sourceTree = "<group>"; };
+		6D7655822387925E005379E0 /* PlayerDeleteStateHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayerDeleteStateHandler.h; sourceTree = "<group>"; };
+		6D7655832387925E005379E0 /* PlayerDeleteStateHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayerDeleteStateHandler.m; sourceTree = "<group>"; };
+		6D7655852387926C005379E0 /* PlayerLocalStateHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayerLocalStateHandler.h; sourceTree = "<group>"; };
+		6D7655862387926C005379E0 /* PlayerLocalStateHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayerLocalStateHandler.m; sourceTree = "<group>"; };
+		6D76558823879280005379E0 /* PlayerNoNetworkStateHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayerNoNetworkStateHandler.h; sourceTree = "<group>"; };
+		6D76558923879280005379E0 /* PlayerNoNetworkStateHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayerNoNetworkStateHandler.m; sourceTree = "<group>"; };
+		6D76558B2387BE51005379E0 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		DB8A2452F196A72EB164E5D7 /* Pods-IOP_PolymorphismDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOP_PolymorphismDemo.debug.xcconfig"; path = "Target Support Files/Pods-IOP_PolymorphismDemo/Pods-IOP_PolymorphismDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D76554223878DE3005379E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F820FC21782BF116F05DC14 /* libPods-IOP_PolymorphismDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D76555A23878DE5005379E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D76556523878DE5005379E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F3A5B52729E5AE9E6BB8D98 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D9D4FC8EB766CCF366E418B /* libPods-IOP_PolymorphismDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6D76553C23878DE3005379E0 = {
+			isa = PBXGroup;
+			children = (
+				6D76554723878DE3005379E0 /* IOP_PolymorphismDemo */,
+				6D76556023878DE5005379E0 /* IOP_PolymorphismDemoTests */,
+				6D76556B23878DE5005379E0 /* IOP_PolymorphismDemoUITests */,
+				6D76554623878DE3005379E0 /* Products */,
+				CFDEE40183B0B1524124EBF7 /* Pods */,
+				0F3A5B52729E5AE9E6BB8D98 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6D76554623878DE3005379E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D76554523878DE3005379E0 /* IOP_PolymorphismDemo.app */,
+				6D76555D23878DE5005379E0 /* IOP_PolymorphismDemoTests.xctest */,
+				6D76556823878DE5005379E0 /* IOP_PolymorphismDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D76554723878DE3005379E0 /* IOP_PolymorphismDemo */ = {
+			isa = PBXGroup;
+			children = (
+				6D76554823878DE3005379E0 /* AppDelegate.h */,
+				6D76554923878DE3005379E0 /* AppDelegate.m */,
+				6D76557B23878E09005379E0 /* IOPPolymorphismDemo */,
+				6D76557A23878DF9005379E0 /* Demo */,
+				6D76554E23878DE3005379E0 /* Main.storyboard */,
+				6D76555123878DE5005379E0 /* Assets.xcassets */,
+				6D76555323878DE5005379E0 /* LaunchScreen.storyboard */,
+				6D76555623878DE5005379E0 /* Info.plist */,
+				6D76555723878DE5005379E0 /* main.m */,
+				6D76558B2387BE51005379E0 /* PrefixHeader.pch */,
+			);
+			path = IOP_PolymorphismDemo;
+			sourceTree = "<group>";
+		};
+		6D76556023878DE5005379E0 /* IOP_PolymorphismDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				6D76556123878DE5005379E0 /* IOP_PolymorphismDemoTests.m */,
+				6D76556323878DE5005379E0 /* Info.plist */,
+			);
+			path = IOP_PolymorphismDemoTests;
+			sourceTree = "<group>";
+		};
+		6D76556B23878DE5005379E0 /* IOP_PolymorphismDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6D76556C23878DE5005379E0 /* IOP_PolymorphismDemoUITests.m */,
+				6D76556E23878DE5005379E0 /* Info.plist */,
+			);
+			path = IOP_PolymorphismDemoUITests;
+			sourceTree = "<group>";
+		};
+		6D76557A23878DF9005379E0 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				6D76557D23879169005379E0 /* Handler */,
+				6D76554B23878DE3005379E0 /* ViewController.h */,
+				6D76554C23878DE3005379E0 /* ViewController.m */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		6D76557B23878E09005379E0 /* IOPPolymorphismDemo */ = {
+			isa = PBXGroup;
+			children = (
+				6D76557C23878E50005379E0 /* IOPPolymorphismProtocol.h */,
+			);
+			path = IOPPolymorphismDemo;
+			sourceTree = "<group>";
+		};
+		6D76557D23879169005379E0 /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+				6D76557F23879250005379E0 /* PlayerBannedStateHandler.h */,
+				6D76558023879250005379E0 /* PlayerBannedStateHandler.m */,
+				6D7655822387925E005379E0 /* PlayerDeleteStateHandler.h */,
+				6D7655832387925E005379E0 /* PlayerDeleteStateHandler.m */,
+				6D7655852387926C005379E0 /* PlayerLocalStateHandler.h */,
+				6D7655862387926C005379E0 /* PlayerLocalStateHandler.m */,
+				6D76558823879280005379E0 /* PlayerNoNetworkStateHandler.h */,
+				6D76558923879280005379E0 /* PlayerNoNetworkStateHandler.m */,
+			);
+			path = Handler;
+			sourceTree = "<group>";
+		};
+		CFDEE40183B0B1524124EBF7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DB8A2452F196A72EB164E5D7 /* Pods-IOP_PolymorphismDemo.debug.xcconfig */,
+				3B1A570A8656AB356C6E1AEE /* Pods-IOP_PolymorphismDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6D76554423878DE3005379E0 /* IOP_PolymorphismDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D76557123878DE5005379E0 /* Build configuration list for PBXNativeTarget "IOP_PolymorphismDemo" */;
+			buildPhases = (
+				16CE05572827EDD155A51DA4 /* [CP] Check Pods Manifest.lock */,
+				6D76554123878DE3005379E0 /* Sources */,
+				6D76554223878DE3005379E0 /* Frameworks */,
+				6D76554323878DE3005379E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IOP_PolymorphismDemo;
+			productName = IOP_PolymorphismDemo;
+			productReference = 6D76554523878DE3005379E0 /* IOP_PolymorphismDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6D76555C23878DE5005379E0 /* IOP_PolymorphismDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D76557423878DE5005379E0 /* Build configuration list for PBXNativeTarget "IOP_PolymorphismDemoTests" */;
+			buildPhases = (
+				6D76555923878DE5005379E0 /* Sources */,
+				6D76555A23878DE5005379E0 /* Frameworks */,
+				6D76555B23878DE5005379E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D76555F23878DE5005379E0 /* PBXTargetDependency */,
+			);
+			name = IOP_PolymorphismDemoTests;
+			productName = IOP_PolymorphismDemoTests;
+			productReference = 6D76555D23878DE5005379E0 /* IOP_PolymorphismDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6D76556723878DE5005379E0 /* IOP_PolymorphismDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D76557723878DE5005379E0 /* Build configuration list for PBXNativeTarget "IOP_PolymorphismDemoUITests" */;
+			buildPhases = (
+				6D76556423878DE5005379E0 /* Sources */,
+				6D76556523878DE5005379E0 /* Frameworks */,
+				6D76556623878DE5005379E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D76556A23878DE5005379E0 /* PBXTargetDependency */,
+			);
+			name = IOP_PolymorphismDemoUITests;
+			productName = IOP_PolymorphismDemoUITests;
+			productReference = 6D76556823878DE5005379E0 /* IOP_PolymorphismDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D76553D23878DE3005379E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Lizhi;
+				TargetAttributes = {
+					6D76554423878DE3005379E0 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					6D76555C23878DE5005379E0 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 6D76554423878DE3005379E0;
+					};
+					6D76556723878DE5005379E0 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 6D76554423878DE3005379E0;
+					};
+				};
+			};
+			buildConfigurationList = 6D76554023878DE3005379E0 /* Build configuration list for PBXProject "IOP_PolymorphismDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6D76553C23878DE3005379E0;
+			productRefGroup = 6D76554623878DE3005379E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D76554423878DE3005379E0 /* IOP_PolymorphismDemo */,
+				6D76555C23878DE5005379E0 /* IOP_PolymorphismDemoTests */,
+				6D76556723878DE5005379E0 /* IOP_PolymorphismDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D76554323878DE3005379E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D76555523878DE5005379E0 /* LaunchScreen.storyboard in Resources */,
+				6D76555223878DE5005379E0 /* Assets.xcassets in Resources */,
+				6D76555023878DE3005379E0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D76555B23878DE5005379E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D76556623878DE5005379E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		16CE05572827EDD155A51DA4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IOP_PolymorphismDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D76554123878DE3005379E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D76558A23879280005379E0 /* PlayerNoNetworkStateHandler.m in Sources */,
+				6D76554D23878DE3005379E0 /* ViewController.m in Sources */,
+				6D7655842387925E005379E0 /* PlayerDeleteStateHandler.m in Sources */,
+				6D76558123879250005379E0 /* PlayerBannedStateHandler.m in Sources */,
+				6D76555823878DE5005379E0 /* main.m in Sources */,
+				6D76554A23878DE3005379E0 /* AppDelegate.m in Sources */,
+				6D7655872387926C005379E0 /* PlayerLocalStateHandler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D76555923878DE5005379E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D76556223878DE5005379E0 /* IOP_PolymorphismDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D76556423878DE5005379E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D76556D23878DE5005379E0 /* IOP_PolymorphismDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6D76555F23878DE5005379E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D76554423878DE3005379E0 /* IOP_PolymorphismDemo */;
+			targetProxy = 6D76555E23878DE5005379E0 /* PBXContainerItemProxy */;
+		};
+		6D76556A23878DE5005379E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D76554423878DE3005379E0 /* IOP_PolymorphismDemo */;
+			targetProxy = 6D76556923878DE5005379E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6D76554E23878DE3005379E0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D76554F23878DE3005379E0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6D76555323878DE5005379E0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D76555423878DE5005379E0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6D76556F23878DE5005379E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6D76557023878DE5005379E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6D76557223878DE5005379E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB8A2452F196A72EB164E5D7 /* Pods-IOP_PolymorphismDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IOP_PolymorphismDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "luozhiwei.IOP-PolymorphismDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6D76557323878DE5005379E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B1A570A8656AB356C6E1AEE /* Pods-IOP_PolymorphismDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IOP_PolymorphismDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "luozhiwei.IOP-PolymorphismDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6D76557523878DE5005379E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IOP_PolymorphismDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "luozhiwei.IOP-PolymorphismDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IOP_PolymorphismDemo.app/IOP_PolymorphismDemo";
+			};
+			name = Debug;
+		};
+		6D76557623878DE5005379E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IOP_PolymorphismDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "luozhiwei.IOP-PolymorphismDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IOP_PolymorphismDemo.app/IOP_PolymorphismDemo";
+			};
+			name = Release;
+		};
+		6D76557823878DE5005379E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IOP_PolymorphismDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "luozhiwei.IOP-PolymorphismDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IOP_PolymorphismDemo;
+			};
+			name = Debug;
+		};
+		6D76557923878DE5005379E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IOP_PolymorphismDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "luozhiwei.IOP-PolymorphismDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IOP_PolymorphismDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D76554023878DE3005379E0 /* Build configuration list for PBXProject "IOP_PolymorphismDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D76556F23878DE5005379E0 /* Debug */,
+				6D76557023878DE5005379E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D76557123878DE5005379E0 /* Build configuration list for PBXNativeTarget "IOP_PolymorphismDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D76557223878DE5005379E0 /* Debug */,
+				6D76557323878DE5005379E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D76557423878DE5005379E0 /* Build configuration list for PBXNativeTarget "IOP_PolymorphismDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D76557523878DE5005379E0 /* Debug */,
+				6D76557623878DE5005379E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D76557723878DE5005379E0 /* Build configuration list for PBXNativeTarget "IOP_PolymorphismDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D76557823878DE5005379E0 /* Debug */,
+				6D76557923878DE5005379E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6D76553D23878DE3005379E0 /* Project object */;
+}
